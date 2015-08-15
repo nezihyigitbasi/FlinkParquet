@@ -1,9 +1,9 @@
-Crunching Apache Parquet File with Apache Flink
+Crunching Apache Parquet Files with Apache Flink
 -------------------------------------------------
 
 This repo includes sample code to setup Flink dataflows to process Parquet files.
 The CSV datasets under `resources/` are the Restaurant Score datasets downloaded from
-[SF OpenData](https://data.sfgov.org). For more information please see []().
+[SF OpenData](https://data.sfgov.org). For more information please see [this post](https://medium.com/@istanbul_techie/crunching-parquet-files-with-apache-flink-200bec90d8a7).
 
 ###Generating the Avro Model Classes
 
