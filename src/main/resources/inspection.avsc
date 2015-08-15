@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "Inspection",
+  "namespace": "yigitbasi.nezih.model",
+    "fields": [
+                   {"name": "businessId", "type": "int"},
+                   {"name": "score",  "type": "int"},
+                   {"name": "date",  "type": "string"},
+                   {"name": "type",  "type": "string"}
+    ]
+}

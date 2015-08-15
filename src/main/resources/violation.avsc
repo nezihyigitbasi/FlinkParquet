@@ -1,0 +1,12 @@
+{
+  "type": "record",
+  "name": "Violation",
+  "namespace": "yigitbasi.nezih.model",
+    "fields": [
+                   {"name": "businessId", "type": "int"},
+                   {"name": "date",  "type": "string"},
+                   {"name": "violationTypeID",  "type": "long"},
+                   {"name": "riskCategory",  "type": "string"},
+                   {"name": "description",  "type": "string"}
+    ]
+}

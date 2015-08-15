@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "Business",
+  "namespace": "yigitbasi.nezih.model",
+    "fields": [
+                   {"name": "businessId", "type": "int"},
+                   {"name": "name",  "type": "string"},
+                   {"name": "address",  "type": "string"},
+                   {"name": "city",  "type": "string"},
+                   {"name": "postalCode",  "type": "string"},
+                   {"name": "latitude",  "type": "float"},
+                   {"name": "longitude",  "type": "float"},
+                   {"name": "phone",  "type": "string"},
+                   {"name": "taxCode",  "type": "string"},
+                   {"name": "businessCertificate", "type": "string"},
+                   {"name": "applicationDate",  "type": "string"},
+                   {"name": "ownerName",  "type": "string"},
+                   {"name": "ownerAddress",  "type": "string"},
+                   {"name": "ownerCity",  "type": "string"},
+                   {"name": "ownerState",  "type": "string"},
+                   {"name": "ownerZip",  "type": "string"}
+    ]
+}
