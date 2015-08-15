@@ -1,4 +1,4 @@
-Crunching Apache Parquet File with Apache Flink
+Crunching Apache Parquet Files with Apache Flink
 -------------------------------------------------
 
 This repo includes sample code to setup Flink dataflows to process Parquet files.
