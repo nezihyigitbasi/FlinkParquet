@@ -13,7 +13,7 @@ If you make any changes to the Avro schema files (`*.avsc`) under `resources/` y
 ./compile_schemas.sh
 ```
 
-###Step 1: Converting the CSV Data Files to the Parquet Format:
+###Step 1: Converting the CSV Data Files to the Parquet Format
 
 Below command converts and writes the CSV files under `resources/` to `/tmp/business`, `/tmp/violations`, and `/tmp/inspections` directories in Parquet format.
 
@@ -21,7 +21,7 @@ Below command converts and writes the CSV files under `resources/` to `/tmp/busi
 mvn clean package exec:java -Dexec.mainClass="yigitbasi.nezih.ConvertToParquet"
 ```
 
-###Step 2: Running the Flink Dataflow:
+###Step 2: Running the Flink Dataflow
 
 
 ```
